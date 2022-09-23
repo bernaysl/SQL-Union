@@ -1,6 +1,6 @@
 /*UNION operatörü sayesinde farklı SELECT sorgularıyla oluşan sonuçları tek bir sonuç kümesi haline getiririz.
 */
-/*
+
 (
 SELECT * FROM book
 ORDER BY page_number DESC
@@ -12,7 +12,7 @@ SELECT * FROM book
 ORDER BY title 
 LIMIT 5
 );
-*/
+
 
 /*DIKKAT ETMEMIZ GEREK ILK NOKTA: ikisininde sütun sayilari ayni olmali*/
 /*DİKKAT ETMEMİZ GEREKEN IKINCI NOKTA: iki tabloda da istedigimiz veriler sırasıla aynı veri tipinde olmali.*/
